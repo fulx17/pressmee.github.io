@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script> 
+</head>
+<body>
+    <div class="angle" style="left: -300px; top: -300px"></div>
+    <div class="angle" style="left: 1500px; top: -300px"></div>
+    <div class="angle" style="left: -300px; top: 700px"></div>
+    <div class="angle" style="left: 1500px; top: 700px"></div>
+    <div class="wheel-container">
+        <div class="wheel" id="wheel"></div>
+        <div class="spin-button-container">
+            <button class="spin-button" id="spin">SPIN</button>
+            <div class="arrow"></div> 
+        </div>
+    </div>
+    <div class="prize-container" id="prize-word" style="display: none"></div>
+    <img src="icon/1.png" class="picture" id="pic">
+    <div class="background" style="background-color: #FEFAE0; animation: move1 1s forwards"></div>
+    <div class="background" style="background-color: #FFC6C6; animation: move2 1s forwards"></div>
+    <div class="background" style="background-color: #F7B5CA; animation: move3 1s forwards"></div>
+    <div class="text_box" style="left: 50%;  transform: translate(-50%, 20%); animation: move4 1s forwards;">Mình đi đâu đâyy</div>
+    <div class="text_box" id="date" style="position: absolute; bottom: -100px; left: 50%; transform: translate(-50%, 0%); padding: 15px 70px;">8 giờ anh qua đón nhéeeee</div>
+</body>
+</html>
